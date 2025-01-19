@@ -33,18 +33,24 @@
       overflow: hidden;
     }
 
-    .author__name {
-      font-size: 18px;
-      line-height: 28px;
-      font-weight: 600;
-      color: var(--text-neutral-900);
-    }
+    .author__info {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
 
-    .author__handle {
-      font-size: 14px;
-      line-height: 20px;
-      font-weight: 400;
-      color: var(--text-neutral-600);
+      .author__name {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        color: var(--text-neutral-900);
+      }
+
+      .author__handle {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: var(--text-neutral-600);
+      }
     }
   }
 
